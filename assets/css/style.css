@@ -1,0 +1,47 @@
+body {
+    background-image: url('../images/woods.jpg');
+    background-size: 100% 100%;
+    background-position: fixed;
+}
+header {
+    text-align: center;
+    color: white;
+    
+}
+.jumbotron {
+    background-image: url('../images/house-flags.jpg');
+    background-size: 50%;
+    background-position: center;
+}
+
+#subwrapper {
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+#directions {
+    color: white;
+}
+#start {
+    margin-bottom: 100%;
+    margin-top: 100px;
+    font-size: 30px;
+    background-color: white;
+    color: black;
+    border: 2px solid red;
+    border-radius:8px;
+}#start:hover {
+    background-color: Red;
+    border-radius: 8px;
+}
+#end {
+    margin-top: 50px;
+    font-size: 30px;
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    border-radius:8px;
+}#end:hover {
+    background-color: green;
+    border-radius:8px;
+}
